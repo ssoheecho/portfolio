@@ -12,28 +12,33 @@
 <body>
   </div>
   <div class="container">
-    <div class="container">
-      <div class="nav-grid-sm">
-        <div id="logo">
-          <img src="assets/logo.svg"></img>
-        </div>
-        <div id="mySidenav" class="sidenav">
-          <a href="#" class="closebtn" onclick="closeNav()">&times;</a>
-          <a href="index.html">work</a>
-          <a href="about.html">about</a>
-        </div>
-        <a href="#" class="icon" onclick="openNav()">
-          <i class="fa fa-bars"></i>
-        </a>
+    <div class="nav-grid-sm">
+      <div id="logo">
+        <img src="assets/logo.svg"></img>
       </div>
-      <div class="nav-grid-la">
-  
+      <div id="mySidenav" class="sidenav">
+        <a href="#" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="index.html">work</a>
+        <a href="about.html">about</a>
       </div>
+      <a href="#" class="icon" onclick="openNav()">
+        <img src="assets/burger.svg"></img>
+      </a>
+    </div>
+    <div class="nav-grid-la">
+      <div id="logo">
+        <img src="assets/logo.svg"></img>
+      </div>
+      <div id="links">
+        <a href="index.html">Work</a>
+        <a href="about.html">About</a>
+      </div>
+    </div>
     <div class="project-content">
       <p>
         <b>lost in translation</b> is a work in progress that explores computational metaphors and translations. It is an attempt at a visual dialogue with the machine to investigate the connections that are shaped when we interact with our computers through code — how much does the code impose control on the self and how much of the self do we encode into our machines? This project deconstructs layers of computational metaphors (camera, computer, machine learning, pen plotter) to understand the fragmented, abstracted, and subjective nature of the translations that occur between our perceived reality and the digital one.
       </p>
-      <img src="assets/lost/lost_01.png" alt="overall shot of the narrative object">
+      <img id="first" src="assets/lost/lost_01.png" alt="overall shot of the narrative object">
   </div>
   <script src="script.js"></script>
 </body>
