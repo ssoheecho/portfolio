@@ -48,6 +48,12 @@
     visibility: hidden;
   }
 
+  .icon img{
+    stroke: #000;
+    width: 30px;
+    height: auto;
+  }
+
   #logo img{
     stroke: #000;
     width: 200px;
