@@ -38,24 +38,31 @@
     overflow: hidden;
     position: relative;
     display: grid;
-    grid-template-columns: 1fr 2fr;
-    justify-items: right;
+    grid-auto-flow: column;
+    /* justify-items: right; */
     padding: 10px
     /* background: yellow; */
   }
-
   .nav-grid-la {
     display: none;
     visibility: hidden;
   }
 
-  #logo {
+  #logo img{
     stroke: #000;
-    width: 150px;
+    width: 200px;
     height: auto;
     display: flex;
-    align-self: left;
-    justify-content: center;
+    display: grid;
+    justify-content: start;
+    align-content: center;
+  }
+
+  .icon {
+    display: grid;
+    justify-content: right;
+    align-content: center;
+    padding: 10px;
   }
   
   /* flyout sidenav from right */
@@ -72,16 +79,12 @@
     padding-top: 100px;
   }
 
-  .fa {
-    padding: 10px;
-  }
-
   .sidenav a {
     margin-left: 10px;
     margin-right: 10px;
     margin-bottom: 25px;
     text-decoration: none;
-    font-size: 1rem;
+    font-size: 1.5rem;
     text-align: center;
     color: #000;
     display: block;
@@ -95,13 +98,12 @@
 
   .sidenav .closebtn {
     position: absolute;
-    top: 0;
+    top: -5px;
     right: 0;
-    font-size: 36px;
+    font-size: 60px;
     font-weight: 200;
-    padding: 5px;
-    padding-top: 4px;
-    margin-right: 15px;
+    padding-top: 0px;
+    margin-right: 20.5px;
   }
 
   /* center titles */
@@ -116,6 +118,13 @@
     font-size: 1.5rem;
   }
 
+  span {
+    width: 100%;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    white-space: normal;
+  }
+
   /* about page centering */
   #about {
     padding: 14px 16px;
@@ -125,8 +134,6 @@
     align-items: center;
     justify-items: center;
     font-size: 1.25rem;
-    word-wrap: break-word;
-    overflow-wrap: break-word;
   }
 
   #about p {
@@ -141,6 +148,10 @@
   a:link {
     text-decoration: none;
     color:black;
+  }
+
+  a:hover {
+    color: blue;
   }
 
   a:visited {
