@@ -171,7 +171,7 @@
     color:black;
   }
 
-  a.closed:hover {
+  .titles a.closed:hover {
     color: rgb(235, 60, 32);
     font-style: italic;
   }
