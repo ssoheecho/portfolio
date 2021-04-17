@@ -124,6 +124,7 @@
     justify-items: center; */
     /* background: red; */
     font-size: 1.5rem;
+    overflow-y: hidden;
   }
 
   span {
@@ -143,6 +144,7 @@
     /* align-items: center; */
     /* justify-items: center; */
     font-size: 1.25rem;
+    overflow-y: hidden;
   }
 
   #about p {
