@@ -161,7 +161,7 @@
     color:black;
   }
 
-  a:hover {
+  .titles a:hover {
     color: rgba(53, 97, 222);
     font-style: italic;
   }
@@ -247,8 +247,16 @@
     grid-gap: 1.75em;
     padding-right: 20px;
     font-weight: 200;
+    font-size: 1.5rem;
+    color: #000;
+    transition: 0.3s;
+    font-weight: 200;
   }
 
+  #links a:hover {
+    color: #777;
+  }
+  
   .titles-grid {
     padding: 0 30px;
     line-height: 1.5;
