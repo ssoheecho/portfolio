@@ -117,9 +117,9 @@
   .titles-grid {
     padding: 0 16px;
     line-height: 1.5;
-    letter-spacing: 0.05rem;
+    letter-spacing: 0.1rem;
     display: grid;
-    margin-top: 40%;
+    margin-top: 25vh;
     /* align-items: center;
     justify-items: center; */
     /* background: red; */
@@ -139,8 +139,9 @@
     line-height: 1.5;
     letter-spacing: 0.05rem;
     display: grid;
-    align-items: center;
-    justify-items: center;
+    margin-top: 25vh;
+    /* align-items: center; */
+    /* justify-items: center; */
     font-size: 1.25rem;
   }
 
