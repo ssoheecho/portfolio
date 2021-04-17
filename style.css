@@ -142,20 +142,19 @@
   }
 
   /* about page centering */
-  #about {
-    padding: 14px 16px;
+  .about {
+    padding: 0 16px;
     line-height: 1.5;
-    letter-spacing: 0.05rem;
     display: grid;
     margin-top: 25vh;
     /* align-items: center; */
-    /* justify-items: center; */
-    font-size: 1.25rem;
-    overflow-y: hidden;
+    justify-items: center;
+    /* background: red; */
+    font-size: 1.5rem;
   }
 
-  #about p {
-    margin: 0;
+  #about {
+    max-width: 800px;
   }
 
   /* get rid of text decoration */
@@ -297,18 +296,6 @@
 
   #first {
     margin-top: 100px;
-  }
-
-  #about {
-    padding: 14px 30px;
-    line-height: 1.5;
-    letter-spacing: 0.05rem;
-    display: grid;
-    margin-top: -7.5%;
-    font-size: 1.25rem;
-    max-width: 600px;
-    align-items: center;
-   justify-items: center;
   }
 } 
 
