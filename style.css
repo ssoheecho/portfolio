@@ -117,7 +117,6 @@
   .titles-grid {
     padding: 0 16px;
     line-height: 1.5;
-    letter-spacing: 0.1rem;
     display: grid;
     margin-top: 25vh;
     /* align-items: center;
@@ -127,11 +126,16 @@
     overflow-y: hidden;
   }
 
+  .titles a {
+    letter-spacing: 0.2rem;
+    word-wrap: break-word;
+  }
+
   span {
     width: 100%;
-    overflow-wrap: break-word;
-    word-wrap: break-word;
     white-space: normal;
+    word-break: break-all;
+    /* hyphens: auto; */
   }
 
   /* about page centering */
