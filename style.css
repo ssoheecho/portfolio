@@ -119,11 +119,14 @@
     line-height: 1.5;
     display: grid;
     margin-top: 25vh;
-    /* align-items: center;
-    justify-items: center; */
+    /* align-items: center; */
+    justify-items: center;
     /* background: red; */
     font-size: 1.5rem;
-    overflow-y: hidden;
+  }
+
+  .titles {
+    max-width: 800px;
   }
 
   .titles a {
