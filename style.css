@@ -162,12 +162,18 @@
   }
 
   a:hover {
-    color: blue;
+    color: rgba(53, 97, 222);
+    font-style: italic;
   }
 
   a:visited {
     text-decoration: none;
     color:black;
+  }
+
+  .closed a:hover {
+    color: rgb(235, 60, 32);
+    font-style: italic;
   }
 
   /* project content styling */
