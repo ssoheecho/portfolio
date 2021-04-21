@@ -30,13 +30,15 @@
     width: 100%;
     min-height: 100vh;
     display: grid;
-    grid-template-rows: auto 1fr auto;  
+    /* grid-template-rows: auto 1fr auto;   */
+    align-items: center;
   }
 
   /* navbar */
   .nav-grid-sm {
     overflow: hidden;
-    position: relative;
+    position: absolute;
+    width: calc(100% - 20px);
     display: grid;
     grid-auto-flow: column;
     /* justify-items: right; */
@@ -118,7 +120,7 @@
     padding: 0 16px;
     line-height: 1.5;
     display: grid;
-    margin-top: 25vh;
+    /* margin-top: 25vh; */
     /* align-items: center; */
     justify-items: center;
     /* background: red; */
@@ -229,7 +231,8 @@
   .nav-grid-la {
     visibility: visible;
     overflow: hidden;
-    position: relative;
+    width: calc(100% - 20px);
+    position: absolute;
     display: grid;
     grid-auto-flow: column;
     padding: 10px;
@@ -268,7 +271,7 @@
     line-height: 1.5;
     letter-spacing: 0.05rem;
     display: grid;
-    margin-top: 220px;
+    /* margin-top: 220px; */
     /* align-items: center;
     justify-items: center; */
     /* background: red; */
