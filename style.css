@@ -170,8 +170,7 @@
   }
 
   .titles a:hover {
-    color: rgba(53, 97, 222);
-    font-style: italic;
+    text-decoration: line-through;
   }
 
   a:visited {
