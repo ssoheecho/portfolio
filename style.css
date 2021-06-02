@@ -1,5 +1,5 @@
 /* fonts */
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;500&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;500&display=swap'); */
 
 /* media queries */
 /* mobile */
@@ -12,9 +12,10 @@
     background-color: #fff;
     color: #000;
     margin: 0;
-    font-family: 'Raleway', sans-serif;
-    font-weight: 500;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-weight: 400;
     overflow-y: scroll;
+    font-size: 20px;
   }
 
   p {
@@ -57,14 +58,14 @@
     height: auto;
   }
 
-  #logo img{
-    stroke: #000;
-    width: 200px;
-    height: auto;
-    display: flex;
-    display: grid;
-    justify-content: start;
-    align-content: center;
+  #logo {
+    float: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 0.6em;
+    font-weight: 200;
   }
 
   .icon {
@@ -196,6 +197,7 @@
 
   .project-content p {
     padding: 0 5px;
+    font-size: 0.8em;
   }
 
   .project-content img {
@@ -254,8 +256,8 @@
     grid-auto-flow: column;
     grid-gap: 1.75em;
     padding-right: 20px;
-    font-weight: 200;
-    font-size: 1.5rem;
+    font-weight: 400;
+    font-size: 0.6em;
     color: #000;
     transition: 0.3s;
     font-weight: 200;
