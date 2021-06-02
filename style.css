@@ -233,7 +233,7 @@
     font-size: 2em;
   }
   
-  .track-1 {
+  #track-1 {
     position: absolute;
     white-space: nowrap;
     will-change: transform;
@@ -245,7 +245,7 @@
     to { transform: translateX(0); }
   }
   
-  .track-2 {
+  #track-2 {
     position: absolute;
     white-space: nowrap;
     will-change: transform;
@@ -255,6 +255,22 @@
   @keyframes marquee-2 {
     from { transform: translateX(0); }
     to { transform: translateX(-50%); }
+  }
+
+  #track-1:hover{
+    -webkit-animation-play-state:paused;
+    -moz-animation-play-state:paused;
+    -o-animation-play-state:paused;
+    animation-play-state:paused;
+    cursor: pointer;
+  }
+
+  #track-2:hover{
+    -webkit-animation-play-state:paused;
+    -moz-animation-play-state:paused;
+    -o-animation-play-state:paused;
+    animation-play-state:paused;
+    cursor: pointer;
   }
   
 }
