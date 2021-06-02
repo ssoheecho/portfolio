@@ -68,6 +68,10 @@
     font-weight: 200;
   }
 
+  #logo a:hover {
+    color: #777;
+  }
+
   .icon {
     display: grid;
     justify-content: right;
