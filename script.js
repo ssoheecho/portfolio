@@ -14,3 +14,19 @@ function openNav() {
 function closeNav() {
   document.getElementById("mySidenav").style.width = "0";
 }
+
+function randomColor() {
+  let color = [];
+  for (let i = 0; i < 3; i++) {
+    color.push(Math.floor(Math.random() * 256));
+  }
+  return 'rgb(' + color.join(', ') + ')';
+} 
+
+document.getElementById('project-titles').addEventListener('mouseover', event => {
+  document.body.style.backgroundColor = randomColor();
+});
+
+// document.getElementById('project-titles').addEventListener('mouseout', event => {
+//   document.body.style.backgroundColor = "#ffffff"
+// });

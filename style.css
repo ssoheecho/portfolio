@@ -33,6 +33,7 @@
     display: grid;
     /* grid-template-rows: auto 1fr auto;   */
     align-items: center;
+    font-size: 20px;
   }
 
   /* navbar */
@@ -129,7 +130,6 @@
     /* align-items: center; */
     justify-items: center;
     /* background: red; */
-    font-size: 1.5rem;
   }
 
   .titles {
@@ -159,7 +159,7 @@
   }
 
   .titles a:hover {
-    text-decoration: line-through;
+    text-decoration: underline;
   }
 
   a:visited {
