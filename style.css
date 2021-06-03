@@ -70,7 +70,7 @@
   }
 
   #logo a:hover {
-    color: #777;
+    text-decoration: underline;
   }
 
   .icon {
@@ -320,7 +320,7 @@
   }
 
   #links a:hover {
-    color: #777;
+    text-decoration: underline;
   }
   
   .titles-grid {
