@@ -20,7 +20,7 @@ function randomColor() {
   for (let i = 0; i < 3; i++) {
     color.push(Math.floor(Math.random() * 256));
   }
-  return 'rgb(' + color.join(', ') + ')';
+  return 'rgb(' + color.join(', ') + ', 0.8)';
 } 
 
 document.getElementById('project-titles').addEventListener('mouseover', event => {
