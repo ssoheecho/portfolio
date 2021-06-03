@@ -30,3 +30,7 @@ document.getElementById('project-titles').addEventListener('mouseover', event =>
 // document.getElementById('project-titles').addEventListener('mouseout', event => {
 //   document.body.style.backgroundColor = "#ffffff"
 // });
+
+window.addEventListener('load', (event) => {
+  document.body.style.backgroundColor = randomColor();
+});
