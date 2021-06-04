@@ -18,21 +18,26 @@
         color: white;
       }
 
-      #about-nav-sm a {
+      #about-nav-sm {
         color: white;
       }
+
+      #mySidenav a.black {
+        color: black;
+      }
+
     </style>
   </head>
 <body>
   <!-- <div class="container"> -->
-    <div class="nav-grid-sm" id="about-nav-sm">
+    <div class="nav-grid-sm">
       <div id="logo">
-        <a href="index.html">sohee cho</a>      
+        <a id="about-nav-sm" href="index.html">sohee cho</a>      
       </div>
       <div id="mySidenav" class="sidenav">
         <a href="#" class="closebtn" onclick="closeNav()">&times;</a>
-        <a href="index.html">work</a>
-        <a href="about.html">about</a>
+        <a class="black" href="index.html">work</a>
+        <a class="black" href="about.html">about</a>
       </div>
       <a href="#" class="icon" onclick="openNav()">
         <img src="assets/burger.svg"></img>
