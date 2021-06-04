@@ -213,16 +213,19 @@
    .about {
     padding: 0 16px;
     line-height: 1.5;
-    display: grid;
+    position: fixed;
+    bottom: 0;
+    right: 20px;
+    /* display: grid; */
     /* margin-top: 25vh; */
     /* align-items: center; */
-    justify-items: center;
+    /* justify-items: center; */
     /* background: red; */
-    font-size: 1.5rem;
+    /* font-size: 1.5rem; */
   }
 
   #about {
-    max-width: 800px;
+    font-size: .6em;
   }
 
   /* marquee */
