@@ -376,5 +376,9 @@
     height: 60px;
     font-size: 2em;
   }
+
+  #about {
+    font-size: 1em;
+  }
 } 
 
