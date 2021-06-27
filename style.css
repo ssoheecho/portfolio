@@ -187,6 +187,10 @@
     font-size: 0.8em;
   }
 
+  p.caption {
+    width: 99%;
+  }
+
   .project-content img {
     margin-bottom: 10px;
     width: 100%;
@@ -349,6 +353,10 @@
 
   .project-content p {
     width: 66%;
+  }
+
+  p.caption {
+    width: 99%;
   }
 
   .project-content img {
