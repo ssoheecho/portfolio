@@ -213,6 +213,11 @@
     font-size: 0.85rem;
   }
 
+  #type {
+    font-size: 0.7rem;
+    letter-spacing: 0.1rem;
+  }
+
    /* about page centering */
    .about {
     padding: 0 16px;
