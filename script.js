@@ -31,6 +31,33 @@ document.getElementById('project-titles').addEventListener('mouseover', event =>
 //   document.body.style.backgroundColor = "#ffffff"
 // });
 
-window.addEventListener('load', (event) => {
-  document.body.style.backgroundColor = randomColor();
-});
+// window.addEventListener('load', (event) => {
+//   document.body.style.backgroundColor = randomColor();
+//   typeWriter();
+// });
+
+// window.onload = function () {
+
+//   document.body.style.backgroundColor = randomColor();
+
+//   if (localStorage.getItem("hasCodeRunBefore") === null) {
+//       /** Your code here. **/
+//       typeWriter();
+//       localStorage.setItem("hasCodeRunBefore", true);
+//   } else {
+//     document.getElementById("white").innerHTML += txt;
+//   }
+// }
+
+// // typewriter effect
+// var i = 0;
+// var txt = "I'm a designer and creative technologist merging art and tech";
+// var speed = 65;
+
+// function typeWriter() {
+//   if (i < txt.length) {
+//     document.getElementById("white").innerHTML += txt.charAt(i);
+//     i++;
+//     setTimeout(typeWriter, speed);
+//   }
+// }
