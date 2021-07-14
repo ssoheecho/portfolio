@@ -135,6 +135,11 @@
     /* background: red; */
   }
 
+  .headline {
+    max-width: 800px;
+    font-size: .82em;
+  }
+
   .titles {
     max-width: 800px;
   }
