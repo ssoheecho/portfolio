@@ -229,6 +229,7 @@
     position: fixed;
     bottom: 0;
     right: 20px;
+    text-align: justify;
     /* display: grid; */
     /* margin-top: 25vh; */
     /* align-items: center; */

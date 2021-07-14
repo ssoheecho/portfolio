@@ -31,10 +31,10 @@ document.getElementById('project-titles').addEventListener('mouseover', event =>
 //   document.body.style.backgroundColor = "#ffffff"
 // });
 
-// window.addEventListener('load', (event) => {
-//   document.body.style.backgroundColor = randomColor();
-//   typeWriter();
-// });
+window.addEventListener('load', (event) => {
+  document.body.style.backgroundColor = randomColor();
+  typeWriter();
+});
 
 // window.onload = function () {
 
@@ -51,7 +51,7 @@ document.getElementById('project-titles').addEventListener('mouseover', event =>
 
 // // typewriter effect
 // var i = 0;
-// var txt = "I'm a designer and creative technologist merging art and tech";
+// var txt = "I am a designer and my work ";
 // var speed = 65;
 
 // function typeWriter() {
