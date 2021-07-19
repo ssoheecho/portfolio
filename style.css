@@ -146,7 +146,6 @@
 
   .titles a {
     letter-spacing: 0.2rem;
-    word-wrap: break-word;
   }
 
   span {
@@ -158,7 +157,7 @@
 
   /* get rid of text decoration */
   a {
-    word-wrap: break-word;
+    word-wrap: normal;
   }
 
   a:link {
@@ -188,7 +187,7 @@
     margin: 0 auto;
     margin-top: 100px;
     display: grid;
-    justify-items: right;
+    justify-items: left;
   }
 
   .project-content p {
@@ -381,7 +380,7 @@
   }
 
   p.caption {
-    width: 99%;
+    width: 75%;
   }
 
   .project-content img {
