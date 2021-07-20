@@ -199,6 +199,11 @@
     width: 99%;
   }
 
+  p.figcaption {
+    width: 99%;
+    font-size: 0.675em;
+  }
+
   .project-content img {
     margin-bottom: 10px;
     width: 100%;
@@ -217,7 +222,7 @@
 
   /* for projects with credit lines at the bottom */
   #credits {
-    text-align: right;
+    text-align: left;
     font-size: 0.85rem;
   }
 
@@ -400,5 +405,14 @@
   #about {
     font-size: 1em;
   }
+    
+  .project-content img.captioned {
+    margin-bottom: 0px;
+  }
+
+  .figcaption {
+    margin-bottom: 100px;
+  }
+
 } 
 
